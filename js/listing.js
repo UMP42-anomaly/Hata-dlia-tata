@@ -66,7 +66,7 @@ items.forEach(elem =>
     price.textContent = '$' + elem.price;
     div.appendChild(price); // div > title + rating... + price
     const buyBtn = document.createElement("button");
-    buyBtn.textContent = "Придбати зараз";
+    buyBtn.textContent = "Детальніше";
     div.appendChild(buyBtn); // div > title + rating... + price + button
     item.appendChild(div); // item > image + div > title + rating... 
     list.append(item); // list > item > image + div > title + rating...
