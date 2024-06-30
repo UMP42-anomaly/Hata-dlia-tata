@@ -1,36 +1,36 @@
 const items = [{
       title: 'Freedom St. 8',
-      src: '/img/Freedom St. 8.jpg',
+      src: './img/Freedom St. 8.jpg',
       rating: 3,
       price: 200000
     },
     {
         title: 'Grand Desert St. 12',
-        src: '/img/Grand Desert St. 12.jpg',
+        src: './img/Grand Desert St. 12.jpg',
         rating: 1,
         price: 25000
     },
     {
         title: 'Jackson St. 1',
-        src: '/img/Jackson St. 1.jpg',
+        src: './img/Jackson St. 1.jpg',
         rating: 4,
      price: 475000
     },
     {
         title: 'Paleto Bay 3',
-        src: '/img/Paleto Bay 3.jpg',
+        src: './img/Paleto Bay 3.jpg',
         rating: 2,
         price: 95000
     },
     {
         title: 'Strawbery St. 5',
-        src: '/img/Strawberry St. 5.jpg',
+        src: './img/Strawberry St. 5.jpg',
         rating: 5,
         price: 2500000
     },
     {
         title: 'Whispymound Drive 5',
-        src: '/img/Whispymound Drive 5.jpg',
+        src: './img/Whispymound Drive 5.jpg',
         rating: 5,
         price: 5000000
 }];
@@ -56,7 +56,7 @@ items.forEach(elem =>
     for (let i = 0; i < elem.rating; i++) {
         const ratingStarsItem = document.createElement("li");
         const star = document.createElement("img");
-        star.src = "/img/star.png";
+        star.src = "./img/star.png";
         ratingStarsItem.appendChild(star); // ratingStarsItem > star
         ratingStars.appendChild(ratingStarsItem); // ratingStars > ratingStarsItem > star
     };
